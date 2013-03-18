@@ -1,0 +1,82 @@
+(ExpressProject "BVP_04v1"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "e:\orcad_sch\lib\ic.olb"
+        (Type "Schematic Library"))
+      (File "e:\orcad_sch\lib\sample.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\bvp_04v1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (K1010
+      (FullPartName "K1010.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (RES_0.25W
+      (FullPartName "RES_0.25W.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (DIODE_LED
+      (FullPartName "DIODE_LED.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (CAP_NP
+      (FullPartName "CAP_NP.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (74ACT573
+      (FullPartName "74ACT573.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\IC.OLB")
+      (DeviceIndex "0"))
+    (CON_32X3
+      (FullPartName "CON_32X3-2.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "1")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "E:\ORCAD_sch\P400\BVP_04v1\bvp_04v1.dsn")
+      (Path "Design Resources" "E:\ORCAD_sch\P400\BVP_04v1\bvp_04v1.dsn"
+         "TOP LEVEL")
+      (Path "Design Resources" "E:\ORCAD_sch\P400\BVP_04v1\bvp_04v1.dsn"
+         "A - IO")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "e:\orcad_sch\lib\sample.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 861"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 88 816 88 531")
+        (Scroll "0 0")
+        (Zoom "75")
+        (Occurrence "/"))
+      (Path "E:\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
+      (Schematic "TOP LEVEL")
+      (Page "TOP LEVEL"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 88 845 88 531")
+        (Scroll "0 0")
+        (Zoom "75"))
+      (Path "E:\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
+      (Schematic "A - IO")
+      (Page "A - IO")))
+  (MPSSessionName "Shcheblykin"))
