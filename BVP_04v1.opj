@@ -19,17 +19,24 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (CAP_NP
       (FullPartName "CAP_NP.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (AD8532AR_G
+      (FullPartName "AD8532AR_G-3.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\OPAMP.OLB")
+      (DeviceIndex "2"))
+    (RES_0.25W
+      (FullPartName "RES_0.25W.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
     (SSM2167_G
       (FullPartName "SSM2167_G-1.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\IC.OLB")
-      (DeviceIndex "0"))
-    (RES_0.25W
-      (FullPartName "RES_0.25W.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
     (PORTLEFT-L
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -37,9 +44,6 @@
     (CAP_P
       (FullPartName "CAP_P.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (PORTRIGHT-L
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (74LVC1G14_G
       (FullPartName "74LVC1G14_G-2.Normal")
@@ -49,10 +53,6 @@
       (FullPartName "SSM2301_G-1.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\IC.OLB")
       (DeviceIndex "0"))
-    (AD8532AR_G
-      (FullPartName "AD8532AR_G-3.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\OPAMP.OLB")
-      (DeviceIndex "2"))
     (AD8532AR
       (FullPartName "AD8532AR.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\OPAMP.OLB")
@@ -84,13 +84,9 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "E:\ORCAD_sch\P400\BVP_04v1\bvp_04v1.dsn")
-      (Path "Design Resources" "E:\ORCAD_sch\P400\BVP_04v1\bvp_04v1.dsn"
-         "TOP LEVEL")
-      (Path "Design Resources" "E:\ORCAD_sch\P400\BVP_04v1\bvp_04v1.dsn"
-         "D - MCU")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "e:\orcad_sch\lib\ic.olb"))
+      (Path "Design Resources" "Library" "e:\orcad_sch\lib\ic.olb")
+      (Select "Design Resources" "E:\ORCAD_sch\P400\BVP_04v1\bvp_04v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -111,9 +107,19 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -23 154 882 154 597")
-        (Scroll "147 0")
+        (Scroll "659 350")
         (Zoom "150"))
       (Path "E:\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
       (Schematic "D - MCU")
-      (Page "D - MCU")))
+      (Page "D - MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 88 816 88 531")
+        (Scroll "0 0")
+        (Zoom "75")
+        (Occurrence "/B1"))
+      (Path "E:\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
+      (Schematic "B - AMPLIFIER")
+      (Page "B - AMLIFIER")))
   (MPSSessionName "Shcheblykin"))
