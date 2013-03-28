@@ -8,6 +8,8 @@
       (File "e:\orcad_sch\lib\sample.olb"
         (Type "Schematic Library"))
       (File "e:\orcad_sch\lib\opamp.olb"
+        (Type "Schematic Library"))
+      (File "e:\orcad_sch\lib\power.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\bvp_04v1.dsn"
@@ -19,27 +21,47 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (PORTRIGHT-L
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (RES_0.25W
+      (FullPartName "RES_0.25W.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
     (CAP_NP
       (FullPartName "CAP_NP.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
-    (AD8532AR_G
-      (FullPartName "AD8532AR_G-3.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\OPAMP.OLB")
-      (DeviceIndex "2"))
-    (RES_0.25W
-      (FullPartName "RES_0.25W.Normal")
+    (SIP7_SINGLE_4_6
+      (FullPartName "SIP7_SINGLE_4_6.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\POWER.OLB")
+      (DeviceIndex "0"))
+    (MOUNTING_HOLE_PLATED
+      (FullPartName "MOUNTING_HOLE_PLATED.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
-    (SSM2167_G
-      (FullPartName "SSM2167_G-1.Normal")
+    (RES_ARRAY_4
+      (FullPartName "RES_ARRAY_4.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (ADUM3402
+      (FullPartName "ADUM3402.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\IC.OLB")
       (DeviceIndex "0"))
     (PORTLEFT-L
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (AD8532AR_G
+      (FullPartName "AD8532AR_G-3.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\OPAMP.OLB")
+      (DeviceIndex "2"))
+    (SSM2167_G
+      (FullPartName "SSM2167_G-1.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\IC.OLB")
       (DeviceIndex "0"))
     (CAP_P
       (FullPartName "CAP_P.Normal")
@@ -56,10 +78,6 @@
     (AD8532AR
       (FullPartName "AD8532AR.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\OPAMP.OLB")
-      (DeviceIndex "0"))
-    (RES_ARRAY_4
-      (FullPartName "RES_ARRAY_4.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
     (KP1040
       (FullPartName "KP1040.Normal")
@@ -84,9 +102,23 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn")
+      (Path "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
+         "A - OUTPUT")
+      (Path "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
+         "B - INPUT")
+      (Path "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
+         "D - AMPLIFIER")
+      (Path "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
+         "E - MCU")
+      (Path "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
+         "F - INTERFACE")
+      (Path "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
+         "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "e:\orcad_sch\lib\ic.olb")
-      (Select "Design Resources" "E:\ORCAD_sch\P400\BVP_04v1\bvp_04v1.dsn"))
+      (Path "Design Resources" "Library" "e:\orcad_sch\lib\power.olb")
+      (Select "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
+         "Design Cache" "SIP7_SINGLE_4_6"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -96,30 +128,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 88 816 88 531")
-        (Scroll "663 117")
-        (Zoom "150")
+        (Placement "44 2 3 -1 -1 -4 -23 88 816 88 531")
+        (Scroll "-39 -11")
+        (Zoom "75")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
       (Schematic "TOP LEVEL")
-      (Page "TOP LEVEL"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 154 882 154 597")
-        (Scroll "659 350")
-        (Zoom "150"))
-      (Path "E:\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
-      (Schematic "D - MCU")
-      (Page "D - MCU"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 88 816 88 531")
-        (Scroll "0 0")
-        (Zoom "75")
-        (Occurrence "/B1"))
-      (Path "E:\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
-      (Schematic "B - AMPLIFIER")
-      (Page "B - AMLIFIER")))
+      (Page "TOP LEVEL")))
   (MPSSessionName "Shcheblykin"))
