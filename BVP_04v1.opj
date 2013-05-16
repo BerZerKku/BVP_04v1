@@ -102,23 +102,16 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn")
-      (Path "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
-         "A - OUTPUT")
-      (Path "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
-         "B - INPUT")
-      (Path "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
-         "D - AMPLIFIER")
-      (Path "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
-         "E - MCU")
-      (Path "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
-         "F - INTERFACE")
-      (Path "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
-         "Design Cache")
+      (Path "Design Resources" ".\bvp_04v1.dsn")
+      (Path "Design Resources" ".\bvp_04v1.dsn" "A - OUTPUT")
+      (Path "Design Resources" ".\bvp_04v1.dsn" "B - INPUT")
+      (Path "Design Resources" ".\bvp_04v1.dsn" "D - AMPLIFIER")
+      (Path "Design Resources" ".\bvp_04v1.dsn" "E - MCU")
+      (Path "Design Resources" ".\bvp_04v1.dsn" "F - INTERFACE")
+      (Path "Design Resources" ".\bvp_04v1.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "e:\orcad_sch\lib\power.olb")
-      (Select "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
-         "Design Cache" "SIP7_SINGLE_4_6"))
+      (Select "Design Resources" ".\bvp_04v1.dsn" "Design Cache"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -128,11 +121,21 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 88 816 88 531")
-        (Scroll "-39 -11")
+        (Placement "44 0 1 -1 -1 -4 -23 88 816 88 531")
+        (Scroll "0 0")
         (Zoom "75")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
       (Schematic "TOP LEVEL")
-      (Page "TOP LEVEL")))
+      (Page "TOP LEVEL"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 44 772 44 487")
+        (Scroll "0 80")
+        (Zoom "100")
+        (Occurrence "/A1"))
+      (Path "E:\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
+      (Schematic "A - OUTPUT")
+      (Page "A - OUTPUT")))
   (MPSSessionName "Shcheblykin"))
