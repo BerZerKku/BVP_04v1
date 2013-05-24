@@ -21,6 +21,14 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (DIODE_SCHOTTKY_DUAL_C
+      (FullPartName "DIODE_SCHOTTKY_DUAL_C.Normal")
+      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
     (RES_0.25W
       (FullPartName "RES_0.25W.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
@@ -102,16 +110,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\bvp_04v1.dsn")
-      (Path "Design Resources" ".\bvp_04v1.dsn" "A - OUTPUT")
-      (Path "Design Resources" ".\bvp_04v1.dsn" "B - INPUT")
-      (Path "Design Resources" ".\bvp_04v1.dsn" "D - AMPLIFIER")
-      (Path "Design Resources" ".\bvp_04v1.dsn" "E - MCU")
-      (Path "Design Resources" ".\bvp_04v1.dsn" "F - INTERFACE")
-      (Path "Design Resources" ".\bvp_04v1.dsn" "Design Cache")
+      (Path "Design Resources" "e:\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "e:\orcad_sch\lib\power.olb")
-      (Select "Design Resources" ".\bvp_04v1.dsn" "Design Cache"))
+      (Path "Design Resources" "Library" "e:\orcad_sch\lib\sample.olb")
+      (Path "Design Resources" "Library" "e:\orcad_sch\lib\power.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -121,9 +123,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 88 816 88 531")
+        (Placement "44 0 1 -1 -1 -4 -23 66 768 66 609")
         (Scroll "0 0")
-        (Zoom "75")
+        (Zoom "77")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
       (Schematic "TOP LEVEL")
@@ -131,9 +133,19 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 44 772 44 487")
-        (Scroll "0 80")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -4 -23 154 860 154 701")
+        (Scroll "0 0")
+        (Zoom "77")
+        (Occurrence "/F1"))
+      (Path "E:\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
+      (Schematic "F - INTERFACE")
+      (Page "F - INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 176 882 176 723")
+        (Scroll "-13 -81")
+        (Zoom "77")
         (Occurrence "/A1"))
       (Path "E:\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
       (Schematic "A - OUTPUT")
