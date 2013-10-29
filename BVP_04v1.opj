@@ -10,6 +10,8 @@
       (File "e:\orcad_sch\lib\opamp.olb"
         (Type "Schematic Library"))
       (File "e:\orcad_sch\lib\power.olb"
+        (Type "Schematic Library"))
+      (File "d:\project\circuit\orcad\lib\sample.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\bvp_04v1.dsn"
@@ -39,7 +41,8 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
-    ("Allegro Netlist Output Board File" "pcb\BVP_04V1.brd")
+    ("Allegro Netlist Output Board File"
+       "D:\Project\Circuit\ORCAD\BVP\04v1\pcb\BVP_04V1.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -87,7 +90,8 @@
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
     (DRC_Run_Physical_Custom_DRC "FALSE")
     ("Allegro Netlist Input Board File"
-       "E:\ORCAD_sch\Template\avant_top_block.brd"))
+       "D:\Project\Circuit\ORCAD\lib\Template\avant_top_block.brd")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Outputs"
     (File ".\bvp_04v1.drc"
       (Type "Report"))
@@ -103,11 +107,67 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (Sort User)
-    (File ".\bvp_04v1.prp"
+    (File "BVP_04V1.PRP"
       (Type "Report")
-      (DisplayName "BVP_04V1.PRP")))
+      (DisplayName "BVP_04V1.PRP"))
+    (File "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.drc"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (MOUNTING_HOLE_PLATED
+      (FullPartName "MOUNTING_HOLE_PLATED.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (PORTNO-L
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTNO-R
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RES_0.125W
+      (FullPartName "RES_0.125W.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (TEST_POINT
+      (FullPartName "TEST_POINT.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (CON_2
+      (FullPartName "CON_2.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (DIODE_TVS_BI
+      (FullPartName "DIODE_TVS_BI.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (PHOTOCOUPLER_3010_H_TEMP
+      (FullPartName "PHOTOCOUPLER_3010_H_TEMPB.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "1"))
+    (RES_5.0W
+      (FullPartName "RES_5.0W.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TITLE_5
+      (FullPartName "TITLE_5.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TITLE_4
+      (FullPartName "TITLE_4.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TITLE_3
+      (FullPartName "TITLE_3.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TITLE_1
+      (FullPartName "TITLE_1.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (Title1
+      (FullPartName "Title1.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\MY_TITLE.OLB")
+      (DeviceIndex "0"))
     (DIODE
       (FullPartName "DIODE.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
@@ -132,10 +192,6 @@
       (FullPartName "SIP7_SINGLE_4_6.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\POWER.OLB")
       (DeviceIndex "0"))
-    (MOUNTING_HOLE_PLATED
-      (FullPartName "MOUNTING_HOLE_PLATED.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
     (RES_ARRAY_4
       (FullPartName "RES_ARRAY_4.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
@@ -153,92 +209,101 @@
     (AD8532AR_G
       (FullPartName "AD8532AR_G-3.Normal")
       (LibraryName "E:\ORCAD_SCH\LIB\OPAMP.OLB")
-      (DeviceIndex "2"))
-    (SSM2167_G
-      (FullPartName "SSM2167_G-1.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\IC.OLB")
-      (DeviceIndex "0"))
-    (CAP_P
-      (FullPartName "CAP_P.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (74LVC1G14_G
-      (FullPartName "74LVC1G14_G-2.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\IC.OLB")
-      (DeviceIndex "1"))
-    (SSM2301_G
-      (FullPartName "SSM2301_G-1.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\IC.OLB")
-      (DeviceIndex "0"))
-    (AD8532AR
-      (FullPartName "AD8532AR.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\OPAMP.OLB")
-      (DeviceIndex "0"))
-    (KP1040
-      (FullPartName "KP1040.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (K1010
-      (FullPartName "K1010.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (DIODE_LED
-      (FullPartName "DIODE_LED.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (74ACT573
-      (FullPartName "74ACT573.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\IC.OLB")
-      (DeviceIndex "0"))
-    (CON_32X3
-      (FullPartName "CON_32X3-2.Normal")
-      (LibraryName "E:\ORCAD_SCH\LIB\SAMPLE.OLB")
-      (DeviceIndex "1")))
+      (DeviceIndex "2")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\bvp_04v1.dsn")
-      (Path "Design Resources" ".\bvp_04v1.dsn" "TOP LEVEL")
-      (Path "Design Resources" ".\bvp_04v1.dsn" "A - OUTPUT")
-      (Path "Design Resources" ".\bvp_04v1.dsn" "F - INTERFACE")
+      (Path "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn")
+      (Path "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn" "TOP LEVEL")
+      (Path "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn" "A - OUTPUT")
+      (Path "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn" "B - INPUT")
+      (Path "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
+         "D - AMPLIFIER")
+      (Path "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn" "E - MCU")
+      (Path "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
+         "F - INTERFACE")
+      (Path "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"
+         "Design Cache")
       (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "d:\project\circuit\orcad\lib\sample.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\bvp_04v1.dsn"))
+      (Select "Design Resources"
+         "d:\old_disks\disk_e\orcad_sch\p400\bvp_04v1\bvp_04v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 903"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 938"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 132 1529 132 608")
-        (Scroll "-99 90")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -4 -23 0 662 0 671")
+        (Scroll "0 0")
+        (Zoom "85")
         (Occurrence "/"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
+      (Path "D:\OLD_DISKS\DISK_E\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
       (Schematic "TOP LEVEL")
       (Page "TOP LEVEL"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 154 1551 154 630")
-        (Scroll "-99 40")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -4 -23 44 1408 44 499")
+        (Scroll "425 714")
+        (Zoom "170")
         (Occurrence "/A1"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
+      (Path "D:\OLD_DISKS\DISK_E\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
       (Schematic "A - OUTPUT")
       (Page "A - OUTPUT"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 176 1573 176 652")
-        (Scroll "220 200")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 -4 -23 220 1584 220 675")
+        (Scroll "-83 0")
+        (Zoom "100")
+        (Occurrence "/B1"))
+      (Path "D:\OLD_DISKS\DISK_E\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
+      (Schematic "B - INPUT")
+      (Page "B - INPUT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 1364 0 455")
+        (Scroll "-83 0")
+        (Zoom "100")
         (Occurrence "/F1"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
+      (Path "D:\OLD_DISKS\DISK_E\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
       (Schematic "F - INTERFACE")
-      (Page "F - INTERFACE")))
+      (Page "F - INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 88 1452 88 543")
+        (Scroll "-83 0")
+        (Zoom "100")
+        (Occurrence "/E1"))
+      (Path "D:\OLD_DISKS\DISK_E\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
+      (Schematic "E - MCU")
+      (Page "E - MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 110 1452 110 608")
+        (Scroll "-72 0")
+        (Zoom "100")
+        (Occurrence "/D1"))
+      (Path "D:\OLD_DISKS\DISK_E\ORCAD_SCH\P400\BVP_04V1\BVP_04V1.DSN")
+      (Schematic "D - AMPLIFIER")
+      (Page "D - AMLIFIER")))
   (MPSSessionName "Shcheblykin")
-  (ISPCBBASICLICENSE "false"))
+  (ISPCBBASICLICENSE "false")
+  (LastUsedLibraryBrowseDirectory "D:\Project\Circuit\ORCAD\lib"))
