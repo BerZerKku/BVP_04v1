@@ -28,7 +28,7 @@
     (ANNOTATE_No_Page_Number_Change "FALSE")
     (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}{PACKAGE}")
     (ANNOTATE_IncludeNonPrimitive "FALSE")
-    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveDesignator "TRUE")
     (ANNOTATE_PreserveUserEdits "TRUE")
     (ANNOTATE_Refdes_Control_Required "FALSE")
     (Update_Instace_for_External_Design "FALSE")
@@ -211,28 +211,36 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\bvp_04v1.dsn")
-      (Path "Design Resources" ".\bvp_04v1.dsn" "TOP LEVEL")
-      (Path "Design Resources" ".\bvp_04v1.dsn" "A - OUTPUT")
-      (Path "Design Resources" ".\bvp_04v1.dsn" "B - INPUT")
-      (Path "Design Resources" ".\bvp_04v1.dsn" "F - INTERFACE")
-      (Path "Design Resources" ".\bvp_04v1.dsn" "Design Cache")
+      (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn")
+      (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn"
+         "TOP LEVEL")
+      (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn"
+         "A - OUTPUT")
+      (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn"
+         "B - INPUT")
+      (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn"
+         "F - INTERFACE")
+      (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn"
+         "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "d:\project\circuit\orcad\lib\sample.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\bvp_04v1.dsn"))
-    (HierarchyView)
+      (Select "Design Resources"
+         "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn"))
+    (HierarchyView
+      (Path "TOP LEVEL")
+      (Select "TOP LEVEL" "VD2 (30B)"))
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 918"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 938"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -23 44 1386 44 542")
-        (Scroll "-72 47")
+        (Scroll "-72 107")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
@@ -242,7 +250,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -23 66 1408 66 564")
-        (Scroll "-72 0")
+        (Scroll "-72 10")
         (Zoom "100")
         (Occurrence "/A1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
@@ -251,9 +259,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 88 1430 88 586")
-        (Scroll "0 96")
-        (Zoom "164")
+        (Placement "44 0 1 -1 -1 -4 -23 88 1430 88 586")
+        (Scroll "-159 0")
+        (Zoom "85")
         (Occurrence "/B1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
       (Schematic "B - INPUT")
@@ -262,8 +270,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -23 110 1452 110 608")
-        (Scroll "234 214")
-        (Zoom "200")
+        (Scroll "-72 0")
+        (Zoom "100")
         (Occurrence "/F1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
       (Schematic "F - INTERFACE")
@@ -271,8 +279,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 88 1434 88 588")
-        (Scroll "-74 0")
+        (Placement "44 2 3 -1 -1 -4 -23 88 1434 88 588")
+        (Scroll "-197 0")
         (Zoom "100")
         (Occurrence "/E1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
@@ -282,8 +290,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -23 110 1456 110 610")
-        (Scroll "-74 0")
-        (Zoom "100")
+        (Scroll "-161 0")
+        (Zoom "85")
         (Occurrence "/D1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
       (Schematic "D - AMPLIFIER")
