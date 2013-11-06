@@ -232,13 +232,13 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 938"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 918"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -23 44 1386 44 542")
-        (Scroll "-159 9")
+        (Scroll "-159 0")
         (Zoom "85")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
@@ -248,8 +248,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -23 66 1408 66 564")
-        (Scroll "-197 107")
-        (Zoom "100")
+        (Scroll "-293 -11")
+        (Zoom "82")
         (Occurrence "/A1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
       (Schematic "A - OUTPUT")
