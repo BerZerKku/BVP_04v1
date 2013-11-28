@@ -107,7 +107,7 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (Sort User)
-    (File ".\bvp_04v1.prp"
+    (File "BVP_04V1.PRP"
       (Type "Report")
       (DisplayName "BVP_04V1.PRP")))
   (Folder "Referenced Projects")
@@ -213,34 +213,31 @@
       (Path "Design Resources")
       (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn")
       (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn"
-         "TOP LEVEL")
-      (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn"
          "A - OUTPUT")
       (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn"
          "B - INPUT")
       (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn"
-         "F - INTERFACE")
+         "D - AMPLIFIER")
       (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn"
-         "Design Cache")
+         "E - MCU")
+      (Path "Design Resources" "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn"
+         "F - INTERFACE")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\sample.olb")
       (Path "Outputs")
       (Select "Design Resources"
-         "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn" "TOP LEVEL"
-         "TOP LEVEL"))
+         "d:\project\circuit\orcad\bvp\04v1\bvp_04v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 903"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 44 1386 44 542")
-        (Scroll "392 686")
-        (Zoom "170")
+        (Placement "44 0 1 -1 -1 -4 -29 44 1386 44 542")
+        (Scroll "-29 70")
+        (Zoom "107")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
       (Schematic "TOP LEVEL")
@@ -248,9 +245,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 66 1408 66 564")
-        (Scroll "425 0")
-        (Zoom "170")
+        (Placement "44 2 3 -1 -1 -4 -29 66 1408 66 564")
+        (Scroll "618 741")
+        (Zoom "192")
         (Occurrence "/A1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
       (Schematic "A - OUTPUT")
@@ -258,9 +255,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 88 1430 88 586")
-        (Scroll "-159 0")
-        (Zoom "85")
+        (Placement "44 0 1 -1 -1 -4 -29 189 1598 196 752")
+        (Scroll "-103 0")
+        (Zoom "100")
         (Occurrence "/B1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
       (Schematic "B - INPUT")
@@ -268,18 +265,18 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 110 1452 110 608")
-        (Scroll "182 586")
-        (Zoom "164")
-        (Occurrence "/F1"))
+        (Placement "44 0 1 -1 -1 -4 -29 216 1625 224 780")
+        (Scroll "-103 0")
+        (Zoom "100")
+        (Occurrence "/D1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
-      (Schematic "F - INTERFACE")
-      (Page "F - INTERFACE"))
+      (Schematic "D - AMPLIFIER")
+      (Page "D - AMLIFIER"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 88 1434 88 588")
-        (Scroll "-74 0")
+        (Placement "44 0 1 -1 -1 -4 -29 243 1652 252 808")
+        (Scroll "-103 0")
         (Zoom "100")
         (Occurrence "/E1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
@@ -288,13 +285,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 110 1456 110 610")
-        (Scroll "-161 0")
-        (Zoom "85")
-        (Occurrence "/D1"))
+        (Placement "44 0 1 -1 -1 -4 -29 189 1598 196 783")
+        (Scroll "-103 0")
+        (Zoom "100")
+        (Occurrence "/F1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\BVP\04V1\BVP_04V1.DSN")
-      (Schematic "D - AMPLIFIER")
-      (Page "D - AMLIFIER")))
+      (Schematic "F - INTERFACE")
+      (Page "F - INTERFACE")))
   (MPSSessionName "Shcheblykin")
   (ISPCBBASICLICENSE "false")
   (LastUsedLibraryBrowseDirectory "D:\Project\Circuit\ORCAD\lib"))
